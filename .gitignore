@@ -1,0 +1,44 @@
+# --- Virtual Environments (Critical) ---
+# Encoder Environment
+worker_encoder/shrink/
+worker_encoder/venv/
+
+# Decoder Environment
+worker_decoder/shrink_decoder/
+worker_decoder/venv/
+
+# General Catch-all
+venv/
+env/
+.env
+
+# --- Heavy Artifacts (Do NOT upload to GitHub) ---
+# Blocks GB-sized model files
+output_models/
+*.safetensors
+*.bin
+*.onnx
+*.pt
+*.h5
+*.msgpack
+
+# --- Python Cache & Logs ---
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.pyd
+
+# --- IDE & System ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+models/
+
+main.py
+test_scripts2.py
+test_scripts3.py
+test_step1.py

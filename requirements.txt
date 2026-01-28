@@ -1,0 +1,9 @@
+torch
+transformers
+onnx
+onnxruntime-gpu ; sys_platform != 'darwin'
+optimum
+datasets
+scikit-learn
+click                    # For making beautiful CLI commands
+rich                     # For printing colorful progress bars/tables

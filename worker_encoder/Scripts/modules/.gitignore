@@ -1,0 +1,45 @@
+# --- Virtual Environments (Crucial for your 2-env setup) ---
+# Ignore the Python 3.13 environment
+worker_encoder/shrink/
+worker_encoder/env/
+
+# Ignore the Python 3.10 environment
+worker_decoder/shrink_decoder/
+worker_decoder/venv/
+
+# General venv catch-all
+venv/
+env/
+.env
+
+# --- Heavy Artifacts (Do NOT upload these to GitHub) ---
+# This ignores the massive model files you generate
+output_models/
+*.safetensors
+*.bin
+*.pt
+*.onnx
+
+# --- Python Cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- IDE & System Files ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+models /
+
+test_scripts2.py
+test_scripts3.py
+test_step1.py
+
+requirements.txt
